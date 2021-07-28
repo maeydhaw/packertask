@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Cloning code') {
             steps {
-                git branch: 'main' , url: 'https://github.com/maeydhaw/packertask.git, credentialsId: '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'
+                git branch: 'main' , url: 'https://github.com/maeydhaw/packertask.git'
             }
         }
         stage('Validating Packer Code') {
