@@ -1,0 +1,7 @@
+{
+    "source_ami":    "ami-0dc2d3e4c0f9ebd18",
+    "instance_type": "t2.micro",
+    "ssh_username":  "ubuntu",
+    "ami_name":      "amzn2-ami-hvm-2.0.20210701.0-x86_64-gp2",
+    "region":        "us-east-1"
+}
